@@ -93,7 +93,7 @@ const updateUsuario = (req,res) => {
   });
   
   if(!found){
-    res.status(404).send({message: "usuario não encontrada"})
+    res.status(404).send({message: "usuario não encontrado"})
   }
 }
 
@@ -110,7 +110,7 @@ const deleteUsuario = (req,res) => {
   });
   
   if(!found){
-    res.status(404).send({message: "usuario não encontrada"})
+    res.status(404).send({message: "usuario não encontrado"})
   }
 }
 
